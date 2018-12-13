@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/tada3/triton/handler"
+	"github.com/tada3/abridashi/handler"
 )
 
 const (
