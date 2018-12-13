@@ -29,7 +29,7 @@ func main() {
 
 	fmt.Printf("Listen on port %d\n", myport)
 
-	http.HandleFunc("/cek", handler.Dispatch)
+	http.HandleFunc("/", handler.Dispatch)
 
 	addr := fmt.Sprintf(":%d", myport)
 	log.Fatalln(http.ListenAndServe(addr, nil))
